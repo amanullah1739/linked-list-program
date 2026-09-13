@@ -13,7 +13,7 @@ class Node{
 
 Node* insertatlast(Node* head, int val){
     Node* newNode = new Node(val);
-    if(head->next==nullptr){
+    if(head==nullptr){
         return newNode;
     }
     Node* temp = head;
